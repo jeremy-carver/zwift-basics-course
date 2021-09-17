@@ -1,0 +1,16 @@
+title: Zwift Basics
+description: Basics Course for Git
+template:
+  repo: zwift-basics-template
+  name: zwift-basics
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
