@@ -14,3 +14,24 @@ steps:
     link: '{{ repoUrl }}'
     actions:
       - type: closeIssue
+  - title: Second step
+    actions:
+      - type: createIssue
+        title: A new issue
+        body: a-response-file.md
+    description: Second step
+    event: check_run.created
+  - title: Third step
+    actions:
+      - type: createIssue
+        title: A new issue
+        body: a-response-file.md
+    description: Third step
+    event: check_run.completed
+  - title: Fourth step
+    actions:
+      - type: createIssue
+        title: A new issue
+        body: a-response-file.md
+    description: Fourth step
+    event: issue_comment.created
