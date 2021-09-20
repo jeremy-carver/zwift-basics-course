@@ -1,9 +1,6 @@
-This is the description we show on the course page [here](https://lab.github.com/jeremy-carver/zwift-basics). This first paragraph will be featured at the top of the page so make it great.
+This is the description we show on the course page [here](https://lab.github.com/jeremy-carver/zwift-basics).
 ​
+This course will get you up to speed using github for game client development.
 
-​
-Be sure to tell the learner about the technology you are teaching, why they should learn it, how they can use it, and what you will teach them.
-​
-
-
-Include information on how they can reach you for questions about the content or course. 
+TODO: Links to existing documentation
+TODO: Links to other recommended documentation (third party/global learning lab/etc.)
