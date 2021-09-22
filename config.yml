@@ -203,12 +203,6 @@ steps:
           with: e_error.md
       - type: gate
         left: "%payload.pull_request.merged%"
-      - type: createIssue
-        action_id: issue
-        title: Next steps
-        body: 07_next-steps.md
-        data:
-          repo: '%payload.repository.name%'
       - type: respond
         with: 07_congrats.md
         data:
